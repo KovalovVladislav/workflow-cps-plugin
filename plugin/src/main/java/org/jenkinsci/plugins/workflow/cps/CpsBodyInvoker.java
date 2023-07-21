@@ -55,7 +55,7 @@ import org.jenkinsci.plugins.workflow.cps.steps.ParallelStep;
  * @author Kohsuke Kawaguchi
  */
 @PersistIn(NONE)
-public final class CpsBodyInvoker extends BodyInvoker {
+public class CpsBodyInvoker extends BodyInvoker {
     /*package*/ final List<Object> contextOverrides = new ArrayList<>();
 
     /*package*/ final BodyReference body;
